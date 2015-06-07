@@ -1,6 +1,6 @@
 require(["gitbook"], function(gitbook) {
   gitbook.events.bind("page.change", function() {
-    $('code.lang-sequence').each(function(index, element) {
+    $('code.lang-sequence-hand').each(function(index, element) {
       var $element = $(element);
       $element.sequenceDiagram({theme: 'hand'});
 
